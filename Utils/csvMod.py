@@ -4,9 +4,12 @@ Created on Mar 17, 2016
 @author: pramood
 '''
 import csv
-#
 
-#class CsvParser:
+class CsvParser:
     
-   # def __init__(self, params):
+    def csvIm(self, Fcsv):
+        reader = csv.reader(Fcsv.read().decode('utf-8'))
+        for row in reader:
+            print(row)
+        print('here')
         
