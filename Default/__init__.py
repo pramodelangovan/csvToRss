@@ -1,18 +1,11 @@
 import Utils.dateMod  as dateutils
 import Utils.fileMod as fm
 
-
-<<<<<<< .merge_file_a04328
 day = dateutils.getdate()
-print(day.getdate('add', 2))
-print(day.getdate('sub', 2))
-
-#http://localhost/app/sample.txt
-filname = fm.FileOp()
-filname.readfile('http://localhost/app/Mock.csv')
-=======
+#print(day.getdate('add', 2))
+#print(day.getdate('sub', 2))
 
 
 fil = fm.FileOp()
-fil.readfile('http://localhost/app/mock.csv')
->>>>>>> .merge_file_a04424
+fil.ftpfile('http://localhost/app/mock.csv')
+

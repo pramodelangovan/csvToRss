@@ -10,6 +10,4 @@ class CsvParser:
     def csvIm(self, Fcsv):
         reader = csv.reader(Fcsv.read().decode('utf-8'))
         for row in reader:
-            print(row)
-        print('here')
-        
+            print(row)        
